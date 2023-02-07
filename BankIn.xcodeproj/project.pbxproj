@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885D86CA299245150013EB2B /* CardsCellCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885D86C8299245150013EB2B /* CardsCellCV.swift */; };
+		885D86CB299245150013EB2B /* CardsCellCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885D86C9299245150013EB2B /* CardsCellCV.xib */; };
+		885D86CD29924A210013EB2B /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885D86CC29924A210013EB2B /* SearchVC.swift */; };
+		885D86CF29924EF70013EB2B /* GuidesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885D86CE29924EF70013EB2B /* GuidesListVC.swift */; };
+		885D86D1299250830013EB2B /* GuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885D86D0299250830013EB2B /* GuideVC.swift */; };
 		88EAB82229916F5000C3001E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB82129916F5000C3001E /* AppDelegate.swift */; };
 		88EAB82429916F5000C3001E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB82329916F5000C3001E /* SceneDelegate.swift */; };
 		88EAB82629916F5000C3001E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB82529916F5000C3001E /* ViewController.swift */; };
 		88EAB82929916F5000C3001E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB82729916F5000C3001E /* Main.storyboard */; };
 		88EAB82B29916F5100C3001E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB82A29916F5100C3001E /* Assets.xcassets */; };
 		88EAB82E29916F5100C3001E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB82C29916F5100C3001E /* LaunchScreen.storyboard */; };
+		88EAB8362991713A00C3001E /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB8352991713A00C3001E /* HomePageVC.swift */; };
+		88EAB83B299179CD00C3001E /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB839299179CD00C3001E /* CountryCell.swift */; };
+		88EAB83C299179CD00C3001E /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB83A299179CD00C3001E /* CountryCell.xib */; };
+		88EAB83E2991849B00C3001E /* BanksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB83D2991849B00C3001E /* BanksListVC.swift */; };
+		88EAB84129923BCE00C3001E /* BankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EAB83F29923BCE00C3001E /* BankCell.swift */; };
+		88EAB84229923BCE00C3001E /* BankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EAB84029923BCE00C3001E /* BankCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		88EAB81E29916F5000C3001E /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D86C8299245150013EB2B /* CardsCellCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCellCV.swift; sourceTree = "<group>"; };
+		885D86C9299245150013EB2B /* CardsCellCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsCellCV.xib; sourceTree = "<group>"; };
+		885D86CC29924A210013EB2B /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchVC.swift; path = TabBarController/Controller/SearchVC.swift; sourceTree = SOURCE_ROOT; };
+		885D86CE29924EF70013EB2B /* GuidesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GuidesListVC.swift; path = TabBarController/Controller/GuidesListVC.swift; sourceTree = SOURCE_ROOT; };
+		885D86D0299250830013EB2B /* GuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GuideVC.swift; path = TabBarController/Controller/GuideVC.swift; sourceTree = SOURCE_ROOT; };
+		88EAB81E29916F5000C3001E /* BankIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EAB82129916F5000C3001E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EAB82329916F5000C3001E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		88EAB82529916F5000C3001E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,12 @@
 		88EAB82A29916F5100C3001E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EAB82D29916F5100C3001E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EAB82F29916F5100C3001E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EAB8352991713A00C3001E /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		88EAB839299179CD00C3001E /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		88EAB83A299179CD00C3001E /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		88EAB83D2991849B00C3001E /* BanksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksListVC.swift; sourceTree = "<group>"; };
+		88EAB83F29923BCE00C3001E /* BankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankCell.swift; sourceTree = "<group>"; };
+		88EAB84029923BCE00C3001E /* BankCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +70,7 @@
 		88EAB81F29916F5000C3001E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88EAB81E29916F5000C3001E /* TabBarController.app */,
+				88EAB81E29916F5000C3001E /* BankIn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +78,66 @@
 		88EAB82029916F5000C3001E /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				88EAB82129916F5000C3001E /* AppDelegate.swift */,
-				88EAB82329916F5000C3001E /* SceneDelegate.swift */,
-				88EAB82529916F5000C3001E /* ViewController.swift */,
-				88EAB82729916F5000C3001E /* Main.storyboard */,
-				88EAB82A29916F5100C3001E /* Assets.xcassets */,
-				88EAB82C29916F5100C3001E /* LaunchScreen.storyboard */,
+				88EAB846299243B000C3001E /* Support */,
+				88EAB845299243A100C3001E /* Controller */,
+				88EAB8442992439900C3001E /* Model */,
+				88EAB8432992439000C3001E /* View */,
 				88EAB82F29916F5100C3001E /* Info.plist */,
+				885D86C8299245150013EB2B /* CardsCellCV.swift */,
+				885D86C9299245150013EB2B /* CardsCellCV.xib */,
 			);
 			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		88EAB8432992439000C3001E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88EAB82729916F5000C3001E /* Main.storyboard */,
+				88EAB84029923BCE00C3001E /* BankCell.xib */,
+				88EAB83A299179CD00C3001E /* CountryCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88EAB8442992439900C3001E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88EAB845299243A100C3001E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88EAB82529916F5000C3001E /* ViewController.swift */,
+				88EAB83D2991849B00C3001E /* BanksListVC.swift */,
+				88EAB83F29923BCE00C3001E /* BankCell.swift */,
+				88EAB8352991713A00C3001E /* HomePageVC.swift */,
+				88EAB839299179CD00C3001E /* CountryCell.swift */,
+				885D86CC29924A210013EB2B /* SearchVC.swift */,
+				885D86CE29924EF70013EB2B /* GuidesListVC.swift */,
+				885D86D0299250830013EB2B /* GuideVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88EAB846299243B000C3001E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				88EAB82129916F5000C3001E /* AppDelegate.swift */,
+				88EAB82329916F5000C3001E /* SceneDelegate.swift */,
+				88EAB82A29916F5100C3001E /* Assets.xcassets */,
+				88EAB82C29916F5100C3001E /* LaunchScreen.storyboard */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88EAB81D29916F5000C3001E /* TabBarController */ = {
+		88EAB81D29916F5000C3001E /* BankIn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88EAB83229916F5100C3001E /* Build configuration list for PBXNativeTarget "TabBarController" */;
+			buildConfigurationList = 88EAB83229916F5100C3001E /* Build configuration list for PBXNativeTarget "BankIn" */;
 			buildPhases = (
 				88EAB81A29916F5000C3001E /* Sources */,
 				88EAB81B29916F5000C3001E /* Frameworks */,
@@ -82,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = TabBarController;
+			name = BankIn;
 			productName = TabBarController;
-			productReference = 88EAB81E29916F5000C3001E /* TabBarController.app */;
+			productReference = 88EAB81E29916F5000C3001E /* BankIn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88EAB81929916F5000C3001E /* Build configuration list for PBXProject "TabBarController" */;
+			buildConfigurationList = 88EAB81929916F5000C3001E /* Build configuration list for PBXProject "BankIn" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88EAB81D29916F5000C3001E /* TabBarController */,
+				88EAB81D29916F5000C3001E /* BankIn */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EAB83C299179CD00C3001E /* CountryCell.xib in Resources */,
 				88EAB82E29916F5100C3001E /* LaunchScreen.storyboard in Resources */,
+				88EAB84229923BCE00C3001E /* BankCell.xib in Resources */,
 				88EAB82B29916F5100C3001E /* Assets.xcassets in Resources */,
+				885D86CB299245150013EB2B /* CardsCellCV.xib in Resources */,
 				88EAB82929916F5000C3001E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EAB83E2991849B00C3001E /* BanksListVC.swift in Sources */,
+				885D86CF29924EF70013EB2B /* GuidesListVC.swift in Sources */,
 				88EAB82629916F5000C3001E /* ViewController.swift in Sources */,
+				885D86CA299245150013EB2B /* CardsCellCV.swift in Sources */,
+				885D86CD29924A210013EB2B /* SearchVC.swift in Sources */,
 				88EAB82229916F5000C3001E /* AppDelegate.swift in Sources */,
+				88EAB84129923BCE00C3001E /* BankCell.swift in Sources */,
+				88EAB83B299179CD00C3001E /* CountryCell.swift in Sources */,
+				88EAB8362991713A00C3001E /* HomePageVC.swift in Sources */,
 				88EAB82429916F5000C3001E /* SceneDelegate.swift in Sources */,
+				885D86D1299250830013EB2B /* GuideVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +369,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +378,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TNS.TabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +400,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,16 +409,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TNS.TabBarController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88EAB81929916F5000C3001E /* Build configuration list for PBXProject "TabBarController" */ = {
+		88EAB81929916F5000C3001E /* Build configuration list for PBXProject "BankIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88EAB83029916F5100C3001E /* Debug */,
@@ -348,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88EAB83229916F5100C3001E /* Build configuration list for PBXNativeTarget "TabBarController" */ = {
+		88EAB83229916F5100C3001E /* Build configuration list for PBXNativeTarget "BankIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88EAB83329916F5100C3001E /* Debug */,
